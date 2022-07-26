@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: white;
+}
+.container{
+    width: 70%;
+    margin: 20% auto;
+}
+
+.contact-box{
+color: white;
+display: flex;
+box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.19);
+height: 90%;
+}
+
+.contact-left{
+flex-basis: 40%;
+padding: 48px 48px;
+
+background: white;
+color: black;
+
+}
+.contact-right{
+
+    flex-basis: 40%;
+padding: 48px 48px;
+background: rgb(110,26,119);
+background: linear-gradient(122deg, rgba(110,26,119,0.9699230033810399) 15%, rgba(28,28,134,1) 100%);
+border:none;
+box-shadow: 3px grey;
+
+}
+button{
+    background: rgb(237,31,136);
+    background: linear-gradient(122deg, rgba(237,31,136,1) 100%, rgba(28,28,134,1) 100%);
+    border: none;
+    outline: none;
+    color:white;
+    border-radius: 4px;
+    width: 125px;
+    height: 40px;
+    margin-top: 10px;
+    
+}
+button:hover{
+background:  rgb(173, 25, 102);
+}
+
+Input[type=text], textarea {
+   width: 300px;
+height: 40px; 
+    margin-top: 20px;
+     background: transparent;
+     border-top-style: hidden;
+     border-right-style: hidden;
+     border-left-style: hidden;
+     border-bottom-style: groove;
+     border-bottom-color:rgb(183, 180, 180) ;
+     background-color: transparent;
+     resize: none;
+     outline: none;
+     
+}
+.field:focus{
+    border-bottom-color:rgb(239, 235, 235) ;
+}
+textarea:focus, input:focus {
+    color: #e0e0e0;
+}
+
+p{
+    width: 300px;
+    padding: 20px;
+}
+
+a{
+color: rgb(180, 186, 186);
+text-decoration: none;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
